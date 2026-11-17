@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep raw 160MB DSLR originals local to keep the GitHub repo fast (< 5 MB)
+# All web-optimized images are committed in public/leaf-opt/
+/leaf/
+/public/leaf/*
+!/public/leaf/edexlive_import_2020_6_10_original_IMG_20200607_114249.avif
